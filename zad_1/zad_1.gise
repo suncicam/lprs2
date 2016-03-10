@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="zad_1.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clk_counter.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="clk_counter.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="clk_counter.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="clk_counter_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="clk_counter_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clk_counter_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clk_gen.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="clk_gen.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="clk_gen.xst"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="timer_counter.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="timer_counter.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="timer_counter.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="timer_fsm_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1457561679" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1457561679">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1457594733" xil_pn:in_ck="-2755127752996826111" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1457594733">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="clk_counter.vhd"/>
+      <outfile xil_pn:name="clk_counter_tb.vhd"/>
+      <outfile xil_pn:name="clk_gen.vhd"/>
+      <outfile xil_pn:name="reg.vhd"/>
+      <outfile xil_pn:name="timer_counter.vhd"/>
+      <outfile xil_pn:name="timer_fsm.vhd"/>
+      <outfile xil_pn:name="top.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1457594741" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-3763883793921260114" xil_pn:start_ts="1457594741">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1457594741" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="6698364605422421196" xil_pn:start_ts="1457594741">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1457561679" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="8846582595625065339" xil_pn:start_ts="1457561679">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1457594741" xil_pn:in_ck="-2755127752996826111" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1457594741">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="clk_counter.vhd"/>
+      <outfile xil_pn:name="clk_counter_tb.vhd"/>
+      <outfile xil_pn:name="clk_gen.vhd"/>
+      <outfile xil_pn:name="reg.vhd"/>
+      <outfile xil_pn:name="timer_counter.vhd"/>
+      <outfile xil_pn:name="timer_fsm.vhd"/>
+      <outfile xil_pn:name="top.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1457594745" xil_pn:in_ck="-2755127752996826111" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8828108549182826046" xil_pn:start_ts="1457594741">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1457561998" xil_pn:in_ck="1268487871073086621" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-9197966360020705339" xil_pn:start_ts="1457561997">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForced"/>
+      <outfile xil_pn:name="clk_counter_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+    </transform>
+  </transforms>
+
+</generated_project>

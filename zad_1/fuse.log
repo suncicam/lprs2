@@ -1,0 +1,13 @@
+Running: D:\Install\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Suncica/Desktop/lprs_zad_1/zad_1/clk_counter_tb_isim_beh.exe -prj C:/Users/Suncica/Desktop/lprs_zad_1/zad_1/clk_counter_tb_beh.prj work.clk_counter_tb 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Suncica/Desktop/lprs_zad_1/zad_1/reg.vhd" into library work
+Parsing VHDL file "C:/Users/Suncica/Desktop/lprs_zad_1/zad_1/clk_counter.vhd" into library work
+WARNING:HDLCompiler:946 - "C:/Users/Suncica/Desktop/lprs_zad_1/zad_1/clk_counter.vhd" Line 56: Actual for formal port in_rst is neither a static name nor a globally static expression
+Parsing VHDL file "C:/Users/Suncica/Desktop/lprs_zad_1/zad_1/clk_counter_tb.vhd" into library work
+Starting static elaboration
+ERROR:HDLCompiler:1566 - "C:/Users/Suncica/Desktop/lprs_zad_1/zad_1/clk_counter.vhd" Line 57: Expression has 26 elements ; formal i_d expects 8
+ERROR:HDLCompiler:1566 - "C:/Users/Suncica/Desktop/lprs_zad_1/zad_1/clk_counter.vhd" Line 58: Expression has 26 elements ; formal o_q expects 8
+ERROR:Simulator:777 - Static elaboration of top level VHDL design unit clk_counter_tb in library work failed

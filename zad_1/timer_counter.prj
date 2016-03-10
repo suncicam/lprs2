@@ -1,0 +1,2 @@
+vhdl work "reg.vhd"
+vhdl work "timer_counter.vhd"
